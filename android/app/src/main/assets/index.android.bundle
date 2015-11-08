@@ -20880,11 +20880,15 @@ return React.createElement(TouchableHighlight,{onPress:function(){return _this._
 React.createElement(View,null,
 React.createElement(View,{style:styles.row},
 React.createElement(Text,{style:styles.text},
-rowData.midiTitle),
+rowData.midiTitle)),
 
+
+React.createElement(View,{style:styles.row},
 React.createElement(Text,{style:styles.text},
-rowData.midiDescription),
+rowData.midiDescription)),
 
+
+React.createElement(View,{style:styles.row},
 React.createElement(Text,{style:styles.text},
 rowData.midiLink)),
 

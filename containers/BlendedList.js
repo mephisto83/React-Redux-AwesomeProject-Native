@@ -40,9 +40,13 @@ BlendedList = React.createClass({
               <Text style={styles.text}>
                 {rowData.midiTitle}
               </Text>
+           </View>
+            <View style={styles.row}>
               <Text style={styles.text}>
                 {rowData.midiDescription}
               </Text>
+           </View>
+            <View style={styles.row}>
               <Text style={styles.text}>
                 {rowData.midiLink}
               </Text>
